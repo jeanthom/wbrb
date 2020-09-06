@@ -1,0 +1,8 @@
+kernel vec4 degrade(sampler src) {
+    vec4 pixelData = unpremultiply(sample(src, samplerCoord(src)));
+    vec4 factor = vec4(6.0, 6.0, 6.0, 1.0);
+    pixelData *= factor;
+    pixelData = ceil(pixelData);
+    pixelData /= factor;
+    return premultiply(pixelData);
+}

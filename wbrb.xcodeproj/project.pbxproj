@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		915B6FA02505644E00D4A52B /* wbrbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 915B6F9F2505644E00D4A52B /* wbrbView.h */; };
 		915B6FA22505644E00D4A52B /* wbrbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 915B6FA12505644E00D4A52B /* wbrbView.m */; };
+		915B6FAA2505648400D4A52B /* jingle.aif in Resources */ = {isa = PBXBuildFile; fileRef = 915B6FA92505648400D4A52B /* jingle.aif */; };
+		915B6FAC2505650D00D4A52B /* jingle.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 915B6FAB2505650D00D4A52B /* jingle.aiff */; };
+		915B6FCE25056AC800D4A52B /* LTScreenCaptureHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 915B6FCC25056AC800D4A52B /* LTScreenCaptureHelper.h */; };
+		915B6FCF25056AC800D4A52B /* LTScreenCaptureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 915B6FCD25056AC800D4A52B /* LTScreenCaptureHelper.m */; };
+		915B701325057FC400D4A52B /* ColorDegradation.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 915B701225057FC400D4A52B /* ColorDegradation.cikernel */; };
+		915B70162505818800D4A52B /* ColorDegradationFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 915B70142505818800D4A52B /* ColorDegradationFilter.h */; };
+		915B70172505818800D4A52B /* ColorDegradationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 915B70152505818800D4A52B /* ColorDegradationFilter.m */; };
+		915B701E2505886C00D4A52B /* wbrb.png in Resources */ = {isa = PBXBuildFile; fileRef = 915B701D2505886C00D4A52B /* wbrb.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +24,14 @@
 		915B6F9F2505644E00D4A52B /* wbrbView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wbrbView.h; sourceTree = "<group>"; };
 		915B6FA12505644E00D4A52B /* wbrbView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wbrbView.m; sourceTree = "<group>"; };
 		915B6FA32505644E00D4A52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		915B6FA92505648400D4A52B /* jingle.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = jingle.aif; sourceTree = "<group>"; };
+		915B6FAB2505650D00D4A52B /* jingle.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = jingle.aiff; sourceTree = "<group>"; };
+		915B6FCC25056AC800D4A52B /* LTScreenCaptureHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTScreenCaptureHelper.h; sourceTree = "<group>"; };
+		915B6FCD25056AC800D4A52B /* LTScreenCaptureHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTScreenCaptureHelper.m; sourceTree = "<group>"; };
+		915B701225057FC400D4A52B /* ColorDegradation.cikernel */ = {isa = PBXFileReference; lastKnownFileType = text; path = ColorDegradation.cikernel; sourceTree = "<group>"; };
+		915B70142505818800D4A52B /* ColorDegradationFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorDegradationFilter.h; sourceTree = "<group>"; };
+		915B70152505818800D4A52B /* ColorDegradationFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorDegradationFilter.m; sourceTree = "<group>"; };
+		915B701D2505886C00D4A52B /* wbrb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wbrb.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +64,17 @@
 		915B6F9E2505644E00D4A52B /* wbrb */ = {
 			isa = PBXGroup;
 			children = (
+				915B701D2505886C00D4A52B /* wbrb.png */,
+				915B6FA92505648400D4A52B /* jingle.aif */,
+				915B6FAB2505650D00D4A52B /* jingle.aiff */,
 				915B6F9F2505644E00D4A52B /* wbrbView.h */,
 				915B6FA12505644E00D4A52B /* wbrbView.m */,
+				915B701225057FC400D4A52B /* ColorDegradation.cikernel */,
+				915B70142505818800D4A52B /* ColorDegradationFilter.h */,
+				915B70152505818800D4A52B /* ColorDegradationFilter.m */,
 				915B6FA32505644E00D4A52B /* Info.plist */,
+				915B6FCC25056AC800D4A52B /* LTScreenCaptureHelper.h */,
+				915B6FCD25056AC800D4A52B /* LTScreenCaptureHelper.m */,
 			);
 			path = wbrb;
 			sourceTree = "<group>";
@@ -63,6 +87,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				915B6FA02505644E00D4A52B /* wbrbView.h in Headers */,
+				915B70162505818800D4A52B /* ColorDegradationFilter.h in Headers */,
+				915B6FCE25056AC800D4A52B /* LTScreenCaptureHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +149,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915B701E2505886C00D4A52B /* wbrb.png in Resources */,
+				915B701325057FC400D4A52B /* ColorDegradation.cikernel in Resources */,
+				915B6FAC2505650D00D4A52B /* jingle.aiff in Resources */,
+				915B6FAA2505648400D4A52B /* jingle.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915B6FCF25056AC800D4A52B /* LTScreenCaptureHelper.m in Sources */,
 				915B6FA22505644E00D4A52B /* wbrbView.m in Sources */,
+				915B70172505818800D4A52B /* ColorDegradationFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
