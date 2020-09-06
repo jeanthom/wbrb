@@ -17,6 +17,7 @@
 		915B70162505818800D4A52B /* ColorDegradationFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 915B70142505818800D4A52B /* ColorDegradationFilter.h */; };
 		915B70172505818800D4A52B /* ColorDegradationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 915B70152505818800D4A52B /* ColorDegradationFilter.m */; };
 		915B701E2505886C00D4A52B /* wbrb.png in Resources */ = {isa = PBXBuildFile; fileRef = 915B701D2505886C00D4A52B /* wbrb.png */; };
+		915B70232505906500D4A52B /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 915B70222505906500D4A52B /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		915B70142505818800D4A52B /* ColorDegradationFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorDegradationFilter.h; sourceTree = "<group>"; };
 		915B70152505818800D4A52B /* ColorDegradationFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorDegradationFilter.m; sourceTree = "<group>"; };
 		915B701D2505886C00D4A52B /* wbrb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wbrb.png; sourceTree = "<group>"; };
+		915B702125058FDF00D4A52B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		915B70222505906500D4A52B /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		915B6F922505644E00D4A52B = {
 			isa = PBXGroup;
 			children = (
+				915B70222505906500D4A52B /* screenshot.png */,
+				915B702125058FDF00D4A52B /* README.md */,
 				915B6F9E2505644E00D4A52B /* wbrb */,
 				915B6F9D2505644E00D4A52B /* Products */,
 			);
@@ -153,6 +158,7 @@
 				915B701325057FC400D4A52B /* ColorDegradation.cikernel in Resources */,
 				915B6FAC2505650D00D4A52B /* jingle.aiff in Resources */,
 				915B6FAA2505648400D4A52B /* jingle.aif in Resources */,
+				915B70232505906500D4A52B /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
