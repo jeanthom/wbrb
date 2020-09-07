@@ -95,4 +95,9 @@
     return nil;
 }
 
++(BOOL)performGammaFade
+{
+    return NO;
+}
+
 @end
