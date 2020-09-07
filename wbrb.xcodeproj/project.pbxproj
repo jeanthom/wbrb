@@ -17,6 +17,7 @@
 		915B70172505818800D4A52B /* ColorDegradationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 915B70152505818800D4A52B /* ColorDegradationFilter.m */; };
 		915B701E2505886C00D4A52B /* wbrb.png in Resources */ = {isa = PBXBuildFile; fileRef = 915B701D2505886C00D4A52B /* wbrb.png */; };
 		915B70232505906500D4A52B /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 915B70222505906500D4A52B /* screenshot.png */; };
+		9183D54D250699CD0032ED33 /* stopplayback.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 9183D54C250699CD0032ED33 /* stopplayback.scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		915B701D2505886C00D4A52B /* wbrb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wbrb.png; sourceTree = "<group>"; };
 		915B702125058FDF00D4A52B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		915B70222505906500D4A52B /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		9183D54C250699CD0032ED33 /* stopplayback.scpt */ = {isa = PBXFileReference; lastKnownFileType = text; path = stopplayback.scpt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				915B6FAB2505650D00D4A52B /* jingle.aiff */,
 				915B6F9F2505644E00D4A52B /* wbrbView.h */,
 				915B6FA12505644E00D4A52B /* wbrbView.m */,
+				9183D54C250699CD0032ED33 /* stopplayback.scpt */,
 				915B701225057FC400D4A52B /* ColorDegradation.cikernel */,
 				915B70142505818800D4A52B /* ColorDegradationFilter.h */,
 				915B70152505818800D4A52B /* ColorDegradationFilter.m */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				915B701E2505886C00D4A52B /* wbrb.png in Resources */,
+				9183D54D250699CD0032ED33 /* stopplayback.scpt in Resources */,
 				915B701325057FC400D4A52B /* ColorDegradation.cikernel in Resources */,
 				915B6FAC2505650D00D4A52B /* jingle.aiff in Resources */,
 				915B70232505906500D4A52B /* screenshot.png in Resources */,
