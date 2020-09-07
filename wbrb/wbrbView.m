@@ -56,7 +56,7 @@
 - (void)startAnimation
 {
     if (!previewMode) {
-        NSString* path = [[NSBundle mainBundle] pathForResource:@"stopplayback" ofType:@"scpt"];
+        NSString* path = [[NSBundle bundleForClass:[self class]] pathForResource:@"stopplayback" ofType:@"scpt"];
         NSURL* url = [NSURL fileURLWithPath:path];
         NSDictionary* errors = [NSDictionary dictionary];
         NSAppleScript* appleScript = [[NSAppleScript alloc] initWithContentsOfURL:url error:&errors];
