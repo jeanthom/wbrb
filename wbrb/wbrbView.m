@@ -56,12 +56,6 @@
 - (void)startAnimation
 {
     if (!previewMode) {
-        NSString* path = [[NSBundle bundleForClass:[self class]] pathForResource:@"stopplayback" ofType:@"scpt"];
-        NSURL* url = [NSURL fileURLWithPath:path];
-        NSDictionary* errors = [NSDictionary dictionary];
-        NSAppleScript* appleScript = [[NSAppleScript alloc] initWithContentsOfURL:url error:&errors];
-        [appleScript executeAndReturnError:nil];
-        
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];
         NSString *jinglePath = [bundle pathForResource:@"jingle" ofType:@"aiff"];
         NSSound *jingle = [[NSSound alloc] initWithContentsOfFile:jinglePath byReference:NO];
