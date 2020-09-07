@@ -12,6 +12,7 @@
 
 @implementation wbrbView {
     NSImage *finalRender;
+    BOOL previewMode;
 }
 
 - (instancetype)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview
@@ -47,15 +48,19 @@
     
     [finalRender unlockFocus];
     
+    previewMode = isPreview;
+    
     return self;
 }
 
 - (void)startAnimation
 {
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    NSString *jinglePath = [bundle pathForResource:@"jingle" ofType:@"aiff"];
-    NSSound *jingle = [[NSSound alloc] initWithContentsOfFile:jinglePath byReference:NO];
-    [jingle play];
+    if (!previewMode) {
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        NSString *jinglePath = [bundle pathForResource:@"jingle" ofType:@"aiff"];
+        NSSound *jingle = [[NSSound alloc] initWithContentsOfFile:jinglePath byReference:NO];
+        [jingle play];
+    }
     [super startAnimation];
 }
 
